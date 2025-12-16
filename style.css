@@ -140,3 +140,41 @@ body {
     text-align: end;
     font-size: 24px;
 }
+
+.section-4 {
+    color: #F9FAF8;
+    margin: 100px 0;
+}
+
+.container {
+    background-color: #3882F6;
+    margin: 60px 200px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.container button {
+    flex-grow: 0;
+    height: 50px;
+    width: 100px;
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;;
+    font-size: 20px;
+}
+
+.container h4, .container p {
+    margin: 20px 0;
+}
+
+.container h4 {
+    font-size: 24px;
+}
+
+.container p {
+    font-size: 16px;
+}
