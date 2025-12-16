@@ -112,3 +112,31 @@ body {
     border: 4px solid #3882F6;
     border-radius: 20px;
 }
+
+.section-3 {
+    background-color: #E5E7EB;
+    padding: 40px 0;
+}
+
+.section-3 .quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: center;
+}
+
+.section-3 .quote {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    text-align: center;
+}
+
+.section-3 .quote, .section-3 .author {
+    padding: 30px 240px;
+}
+
+.section-3 .author {
+    text-align: end;
+    font-size: 24px;
+}
