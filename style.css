@@ -116,7 +116,7 @@ body {
 
 .section-3 {
     background-color: #E5E7EB;
-    padding: 40px 0;
+    padding: 120px 0;
 }
 
 .section-3 .quote {
@@ -134,7 +134,7 @@ body {
 }
 
 .section-3 .quote, .section-3 .author {
-    padding: 30px 240px;
+    padding: 0px 240px;
 }
 
 .section-3 .author {
