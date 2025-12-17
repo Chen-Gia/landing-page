@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    height: 100vh;
 }
 
 .header, .footer {
@@ -12,12 +13,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex: initial;
 }
 
 .header .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .header .logo, .left-subsection {
@@ -145,6 +149,9 @@ body {
 .section-4 {
     color: #F9FAF8;
     margin: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
@@ -154,7 +161,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 200px;
 }
 
 .container button {
@@ -185,4 +192,14 @@ body {
 .footer p {
     width: 100%;
     text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.section-1, .section-2, .section-3, .section-4 {
+    flex-grow: 20;
 }
